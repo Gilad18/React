@@ -1,0 +1,30 @@
+.card {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(241, 237, 197);
+    border: 1px solid black;
+    border-radius: 15px;
+  box-shadow: 5px 5px 10px 5px saddlebrown;
+  margin: 50px;
+  padding-bottom: 12px;
+
+}
+
+.img{
+    width: 500px;
+    height: 350px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+h2 , p {
+    margin-left: 1%;
+}
+
+a{
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-weight: bold;
+}
