@@ -5,6 +5,7 @@ import Card from './Componenets/Cards4.2/Cards'
 import faker from 'faker';
 import Increments from './Componenets/Increment7.1/Increments'
 import HideSeek from './Componenets/HideSeek7.2/HideSeek'
+import FavColor from './Componenets/LifeCycle8.1/FavColor'
 import  './App.css';
 
 
@@ -20,7 +21,8 @@ function App() {
          <Card src={faker.image.image()} name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/>
          <Card src={faker.image.image()}  name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/> */}
          {/* <Increments/> */}
-         <HideSeek/>
+         {/* <HideSeek/> */}
+         <FavColor/>
     </div>
     
   );
