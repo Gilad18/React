@@ -1,12 +1,15 @@
-import Boxes from './Componenets/Boxes3.1/Boxes.js';
-import Quiz from './Componenets/Quiz/Quiz.js'
-import Buttons from './Componenets/Buttons4.1/Buttons.js'
-import Card from './Componenets/Cards4.2/Cards'
-import faker from 'faker';
-import Increments from './Componenets/Increment7.1/Increments'
-import HideSeek from './Componenets/HideSeek7.2/HideSeek'
-import FavColor from './Componenets/LifeCycle8.1/FavColor'
+// import Boxes from './Componenets/Boxes3.1/Boxes.js';
+// import Quiz from './Componenets/Quiz/Quiz.js'
+// import Buttons from './Componenets/Buttons4.1/Buttons.js'
+// import Card from './Componenets/Cards4.2/Cards'
+// import faker from 'faker';
+// import Increments from './Componenets/Increment7.1/Increments'
+// import HideSeek from './Componenets/HideSeek7.2/HideSeek'
+// import FavColor from './Componenets/LifeCycle8.1/FavColor'
+import BoxAnimation from './Componenets/BoxAnimation8.1/BoxAnimation'
 import  './App.css';
+import './Componenets/BoxAnimation8.1/BoxAnimation.css'
+
 
 
 
@@ -22,7 +25,8 @@ function App() {
          <Card src={faker.image.image()}  name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/> */}
          {/* <Increments/> */}
          {/* <HideSeek/> */}
-         <FavColor/>
+         {/* <FavColor/> */}
+         <BoxAnimation/>
     </div>
     
   );
