@@ -6,9 +6,12 @@
 // import Increments from './Componenets/Increment7.1/Increments'
 // import HideSeek from './Componenets/HideSeek7.2/HideSeek'
 // import FavColor from './Componenets/LifeCycle8.1/FavColor'
-import BoxAnimation from './Componenets/BoxAnimation8.1/BoxAnimation'
+// import BoxAnimation from './Componenets/BoxAnimation8.1/BoxAnimation'
+// import Spinner from './Componenets/Spinner9.1/Spinner'
+import Animator from './Componenets/Animate8.2/AnimateBox'
 import  './App.css';
-import './Componenets/BoxAnimation8.1/BoxAnimation.css'
+import './Componenets/Animate8.2/AnimateBox.css'
+
 
 
 
@@ -26,7 +29,8 @@ function App() {
          {/* <Increments/> */}
          {/* <HideSeek/> */}
          {/* <FavColor/> */}
-         <BoxAnimation/>
+         {/* <Spinner/> */}
+         <Animator/>
     </div>
     
   );

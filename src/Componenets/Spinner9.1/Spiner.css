@@ -1,0 +1,14 @@
+@keyframes spin {
+    25% {border-top: 5px solid blue;}
+    50% {border-left: 5px solid blue;}
+    75% {border-bottom: 5px solid blue;}
+    100% {border-right: 5px solid blue;}
+}
+
+
+.spinner{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
