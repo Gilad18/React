@@ -8,9 +8,10 @@
 // import FavColor from './Componenets/LifeCycle8.1/FavColor'
 // import BoxAnimation from './Componenets/BoxAnimation8.1/BoxAnimation'
 // import Spinner from './Componenets/Spinner9.1/Spinner'
-import Animator from './Componenets/Animate8.2/AnimateBox'
+// import Animator from './Componenets/Animate8.2/AnimateBox'
+import Father from './Componenets/ChildAndFather11.1/ChildAndFather'
 import  './App.css';
-import './Componenets/Animate8.2/AnimateBox.css'
+// import './Componenets/Animate8.2/AnimateBox.css'
 
 
 
@@ -30,7 +31,8 @@ function App() {
          {/* <HideSeek/> */}
          {/* <FavColor/> */}
          {/* <Spinner/> */}
-         <Animator/>
+         {/* <Animator/> */}
+         <Father/>
     </div>
     
   );
