@@ -11,7 +11,8 @@
 // import Animator from './Componenets/Animate8.2/AnimateBox'
 // import Father from './Componenets/ChildAndFather11.1/ChildAndFather'
 // import FatherBox from './Componenets/CheckBox11.2/Father'
-import Chuck from './Componenets/ChukNorris12.1/Chuk'
+// import Chuck from './Componenets/ChukNorris12.1/Chuk'
+import Main from './Componenets/Data13.1/Main'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -36,7 +37,8 @@ function App() {
          {/* <Animator/> */}
          {/* <Father/> */}
         {/* < FatherBox/> */}
-        <Chuck/>
+        {/* <Chuck/> */}
+        <Main/>
     </div>
     
   );
