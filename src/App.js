@@ -9,7 +9,9 @@
 // import BoxAnimation from './Componenets/BoxAnimation8.1/BoxAnimation'
 // import Spinner from './Componenets/Spinner9.1/Spinner'
 // import Animator from './Componenets/Animate8.2/AnimateBox'
-import Father from './Componenets/ChildAndFather11.1/ChildAndFather'
+// import Father from './Componenets/ChildAndFather11.1/ChildAndFather'
+// import FatherBox from './Componenets/CheckBox11.2/Father'
+import Chuck from './Componenets/ChukNorris12.1/Chuk'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -32,7 +34,9 @@ function App() {
          {/* <FavColor/> */}
          {/* <Spinner/> */}
          {/* <Animator/> */}
-         <Father/>
+         {/* <Father/> */}
+        {/* < FatherBox/> */}
+        <Chuck/>
     </div>
     
   );
