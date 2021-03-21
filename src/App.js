@@ -13,8 +13,9 @@
 // import FatherBox from './Componenets/CheckBox11.2/Father'
 // import Chuck from './Componenets/ChukNorris12.1/Chuk'
 // import Main from './Componenets/Data13.1/Main'
-import Check from './Componenets/Check11.2/Check';
-import Avatar from './Componenets/Avatar/Avatar'
+// import Check from './Componenets/Check11.2/Check';
+import Form from './Componenets/Forms/Form'
+// import Avatar from './Componenets/Avatar/Avatar'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -39,7 +40,8 @@ function App() {
          {/* <Animator/> */}
          {/* <Father/> */}
         {/* < FatherBox/> */}
-        <Check/>
+        {/* <Check/> */}
+        <Form/>
         {/* <Chuck/> */}
         {/* <Main/> */}
         {/* <Avatar/> */}
