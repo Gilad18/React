@@ -14,8 +14,9 @@
 // import Chuck from './Componenets/ChukNorris12.1/Chuk'
 // import Main from './Componenets/Data13.1/Main'
 // import Check from './Componenets/Check11.2/Check';
-import Form from './Componenets/Forms/Form'
+// import Form from './Componenets/Forms/Form'
 // import Avatar from './Componenets/Avatar/Avatar'
+import Focus from './Componenets/Focus14.1/Focus'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -41,10 +42,11 @@ function App() {
          {/* <Father/> */}
         {/* < FatherBox/> */}
         {/* <Check/> */}
-        <Form/>
+        {/* <Form/> */}
         {/* <Chuck/> */}
         {/* <Main/> */}
         {/* <Avatar/> */}
+        <Focus/>
     </div>
     
   );
