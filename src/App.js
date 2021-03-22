@@ -16,7 +16,8 @@
 // import Check from './Componenets/Check11.2/Check';
 // import Form from './Componenets/Forms/Form'
 // import Avatar from './Componenets/Avatar/Avatar'
-import Focus from './Componenets/Focus14.1/Focus'
+// import Focus from './Componenets/Focus14.1/Focus'
+import  Copy from './Componenets/CopyFun14.2/Copy'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -46,7 +47,8 @@ function App() {
         {/* <Chuck/> */}
         {/* <Main/> */}
         {/* <Avatar/> */}
-        <Focus/>
+        {/* <Focus/> */}
+        <Copy/>
     </div>
     
   );
