@@ -18,7 +18,8 @@
 // import Avatar from './Componenets/Avatar/Avatar'
 // import Focus from './Componenets/Focus14.1/Focus'
 // import  Copy from './Componenets/CopyFun14.2/Copy'
-import Router from './Componenets/Router/Router'
+// import Router from './Componenets/Router/Router'
+import Text from './Componenets/Text18.1/Text'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -50,7 +51,8 @@ function App() {
         {/* <Avatar/> */}
         {/* <Focus/> */}
         {/* <Copy/> */}
-        <Router/>
+        {/* <Router/> */}
+        <Text/>
     </div>
     
   );

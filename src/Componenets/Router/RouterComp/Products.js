@@ -18,7 +18,7 @@ import {Link} from 'react-router-dom'
         return (
             <div className="product">
                {this.state.store.map(item =>{
-                   return <Link to={`/products/product/${item.id}`} >{item.title}</Link>
+                   return <Link key={item.id} to={`/products/product/${item.id}`} >{item.title}</Link>
                } )}
             </div>
         )

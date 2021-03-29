@@ -9,6 +9,7 @@ export class ProductDetail extends Component {
         let myArry = Store.filter(item => {
             return item.id === parseInt(params.id) 
         })
+        console.log(...myArry);
         return (
             <div>
                 <Link to="/products">Back To All Products</Link>
