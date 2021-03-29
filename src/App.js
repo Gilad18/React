@@ -21,7 +21,8 @@
 // import Router from './Componenets/Router/Router'
 // import Text from './Componenets/Text18.1/Text'
 // import TODO from './Componenets/SimpleTODO.18.2/TODO'
-import Time from './Componenets/18.3.TIME/TIME'
+// import Time from './Componenets/18.3.TIME/TIME'
+import Boxes from './Componenets/18.4.MarkAndDelete/Boxes'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -56,7 +57,8 @@ function App() {
         {/* <Router/> */}
         {/* <Text/> */}
         {/* <TODO/> */}
-        <Time/>
+        {/* <Time/> */}
+        <Boxes/>
     </div>
     
   );
