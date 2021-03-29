@@ -19,7 +19,8 @@
 // import Focus from './Componenets/Focus14.1/Focus'
 // import  Copy from './Componenets/CopyFun14.2/Copy'
 // import Router from './Componenets/Router/Router'
-import Text from './Componenets/Text18.1/Text'
+// import Text from './Componenets/Text18.1/Text'
+import TODO from './Componenets/SimpleTODO.18.2/TODO'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -52,7 +53,8 @@ function App() {
         {/* <Focus/> */}
         {/* <Copy/> */}
         {/* <Router/> */}
-        <Text/>
+        {/* <Text/> */}
+        <TODO/>
     </div>
     
   );
