@@ -24,7 +24,8 @@
 // import Time from './Componenets/18.3.TIME/TIME'
 // import Boxes from './Componenets/18.4.MarkAndDelete/Boxes'
 // import Fetch from './Componenets/19.1.Fetch/Fetch'
-import Countries from './Componenets/19.2.CountriesAPI/Countries'
+// import Countries from './Componenets/19.2.CountriesAPI/Countries'
+import Algolia from './Componenets/19.3.Algolia/Algolia'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -62,7 +63,8 @@ function App() {
         {/* <Time/> */}
         {/* <Boxes/> */}
         {/* <Fetch/> */}
-        <Countries/>
+        {/* <Countries/> */}
+        <Algolia/>
     </div>
     
   );
