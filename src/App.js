@@ -25,7 +25,8 @@
 // import Boxes from './Componenets/18.4.MarkAndDelete/Boxes'
 // import Fetch from './Componenets/19.1.Fetch/Fetch'
 // import Countries from './Componenets/19.2.CountriesAPI/Countries'
-import Algolia from './Componenets/19.3.Algolia/Algolia'
+// import Algolia from './Componenets/19.3.Algolia/Algolia'
+import NewAvatar from './Componenets/19.4.AvatarRefactor/Avatar'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -64,7 +65,8 @@ function App() {
         {/* <Boxes/> */}
         {/* <Fetch/> */}
         {/* <Countries/> */}
-        <Algolia/>
+        {/* <Algolia/> */}
+        <NewAvatar/>
     </div>
     
   );

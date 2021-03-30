@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.search {
+    margin-bottom: 20px;
+    width: 25rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap : 20px;
+    margin-top: 5px;
+
+}
+
+.cardAvatar {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(70, 197, 191);
+  border: 2px black solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pic{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
