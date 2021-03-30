@@ -23,7 +23,8 @@
 // import TODO from './Componenets/SimpleTODO.18.2/TODO'
 // import Time from './Componenets/18.3.TIME/TIME'
 // import Boxes from './Componenets/18.4.MarkAndDelete/Boxes'
-import Fetch from './Componenets/19.1.Fetch/Fetch'
+// import Fetch from './Componenets/19.1.Fetch/Fetch'
+import Countries from './Componenets/19.2.CountriesAPI/Countries'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -60,7 +61,8 @@ function App() {
         {/* <TODO/> */}
         {/* <Time/> */}
         {/* <Boxes/> */}
-        <Fetch/>
+        {/* <Fetch/> */}
+        <Countries/>
     </div>
     
   );
