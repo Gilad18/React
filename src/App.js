@@ -26,7 +26,8 @@
 // import Fetch from './Componenets/19.1.Fetch/Fetch'
 // import Countries from './Componenets/19.2.CountriesAPI/Countries'
 // import Algolia from './Componenets/19.3.Algolia/Algolia'
-import NewAvatar from './Componenets/19.4.AvatarRefactor/Avatar'
+// import NewAvatar from './Componenets/19.4.AvatarRefactor/Avatar'
+import Request from './Componenets/20.1.CancelRequest/Request'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -66,7 +67,8 @@ function App() {
         {/* <Fetch/> */}
         {/* <Countries/> */}
         {/* <Algolia/> */}
-        <NewAvatar/>
+        {/* <NewAvatar/> */}
+        <Request/>
     </div>
     
   );
