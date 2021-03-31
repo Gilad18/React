@@ -27,7 +27,10 @@
 // import Countries from './Componenets/19.2.CountriesAPI/Countries'
 // import Algolia from './Componenets/19.3.Algolia/Algolia'
 // import NewAvatar from './Componenets/19.4.AvatarRefactor/Avatar'
-import Request from './Componenets/20.1.CancelRequest/Request'
+// import Request from './Componenets/20.1.CancelRequest/Request'
+// import Edit from './Componenets/20.1.EDIT/Edit'
+// import Player from './Componenets/22.1 VideoPlayer/Player'
+import Images from './Componenets/21.3.ToggleImages/Images'
 import  './App.css';
 // import './Componenets/Animate8.2/AnimateBox.css'
 
@@ -68,7 +71,10 @@ function App() {
         {/* <Countries/> */}
         {/* <Algolia/> */}
         {/* <NewAvatar/> */}
-        <Request/>
+        {/* <Request/> */}
+        {/* <Edit/> */}
+        {/* <Player/> */}
+        <Images/>
     </div>
     
   );
