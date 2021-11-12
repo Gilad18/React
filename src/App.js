@@ -30,53 +30,50 @@
 // import Request from './Componenets/20.1.CancelRequest/Request'
 // import Edit from './Componenets/20.1.EDIT/Edit'
 // import Player from './Componenets/22.1 VideoPlayer/Player'
-import Images from './Componenets/21.3.ToggleImages/Images'
-import  './App.css';
+// import Images from "./Componenets/21.3.ToggleImages/Images";
+import Gilad from "./Componenets/gilad";
+import "./App.css";
 // import './Componenets/Animate8.2/AnimateBox.css'
-
-
-
-
 
 function App() {
   return (
     <div>
-         {/* <Boxes/> */}
-         {/* <Quiz/> */}
-         {/* <Buttons name="Important" className="bt1" />
+      {/* <Boxes/> */}
+      {/* <Quiz/> */}
+      {/* <Buttons name="Important" className="bt1" />
          <Buttons name="Not Important"/> */}
-         {/* <Card src={faker.image.image()} name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/>
+      {/* <Card src={faker.image.image()} name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/>
          <Card src={faker.image.image()} name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/>
          <Card src={faker.image.image()}  name={faker.name.firstName()} desc={faker.lorem.sentence(6)} urls={faker.internet.url()}/> */}
-         {/* <Increments/> */}
-         {/* <HideSeek/> */}
-         {/* <FavColor/> */}
-         {/* <Spinner/> */}
-         {/* <Animator/> */}
-         {/* <Father/> */}
-        {/* < FatherBox/> */}
-        {/* <Check/> */}
-        {/* <Form/> */}
-        {/* <Chuck/> */}
-        {/* <Main/> */}
-        {/* <Avatar/> */}
-        {/* <Focus/> */}
-        {/* <Copy/> */}
-        {/* <Router/> */}
-        {/* <Text/> */}
-        {/* <TODO/> */}
-        {/* <Time/> */}
-        {/* <Boxes/> */}
-        {/* <Fetch/> */}
-        {/* <Countries/> */}
-        {/* <Algolia/> */}
-        {/* <NewAvatar/> */}
-        {/* <Request/> */}
-        {/* <Edit/> */}
-        {/* <Player/> */}
-        <Images/>
+      {/* <Increments/> */}
+      {/* <HideSeek/> */}
+      {/* <FavColor/> */}
+      {/* <Spinner/> */}
+      {/* <Animator/> */}
+      {/* <Father/> */}
+      {/* < FatherBox/> */}
+      {/* <Check/> */}
+      {/* <Form/> */}
+      {/* <Chuck/> */}
+      {/* <Main/> */}
+      {/* <Avatar/> */}
+      {/* <Focus/> */}
+      {/* <Copy/> */}
+      {/* <Router/> */}
+      {/* <Text/> */}
+      {/* <TODO/> */}
+      {/* <Time/> */}
+      {/* <Boxes/> */}
+      {/* <Fetch/> */}
+      {/* <Countries/> */}
+      {/* <Algolia/> */}
+      {/* <NewAvatar/> */}
+      {/* <Request/> */}
+      {/* <Edit/> */}
+      {/* <Player/> */}
+      {/* <Images /> */}
+      <Gilad />
     </div>
-    
   );
 }
 
