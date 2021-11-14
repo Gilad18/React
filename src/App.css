@@ -49,7 +49,7 @@
 
 .month {
   width: 90vw;
-  height: 90vh;
+  height: 100vh;
   margin: 1rem;
   background-color: bisque;
   direction: rtl;
@@ -65,10 +65,15 @@
   justify-content: flex-end;
 }
 
-.days {
+.myCaladnder {
   width: 95%;
-  height: 80%;
-  border: 1px solid black;
+  min-height: 80%;
   margin: auto;
-  display: grid;
+  text-align: center;
+}
+
+.myTile {
+  width: 3rem;
+  min-height: 6rem;
+  border-radius: 5%;
 }

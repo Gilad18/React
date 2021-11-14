@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import Calendar from "react-calendar";
 
 const monthNames = [
   "ינואר",
@@ -36,7 +37,16 @@ export default function Images() {
             <div className="monthHeader">
               <h1>{month.name}</h1>
             </div>
-            <div className="days"></div>
+            <div className="days">
+              <Calendar
+                className="myCaladnder"
+                tileClassName="myTile"
+                calendarType="Hebrew"
+                defaultView="month"
+                maxDetail="month"
+                defaultActiveStartDate={new Date(2022, month.month, 1)}
+              />
+            </div>
           </div>
         );
       })}
